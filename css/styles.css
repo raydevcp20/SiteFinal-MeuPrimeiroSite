@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container-menu{
+    display: none;
+}
+.general{
+    display: flex;
+}
+.container-header{
+    display: block;
+    text-align: center;
+    background-color: #62cda1;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 15rem;
+    position: fixed;
+}
+.container-header .logoods{
+    height: 9rem;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+}
+.container-header span{
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 25px;
+}
+.container-header span a{
+    color: inherit;
+    font-size: 17px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #fff;
+    transition: 0.2s;
+}
+.container-header img{
+    height: 4rem;
+    margin-top: 30px;
+}
+.container-header span a:hover{
+    background-color: #fff;
+    color: #62cda1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* -----------seção inicio------------- 1 */
+.container-main{
+    display: block;
+    width: 100%;
+}
+#inicio{
+    display: flex;
+    align-items: center;
+    padding-left: 16rem;
+    height: 100vh;
+    background-image: linear-gradient( -60deg, #fc7013, #faea12 70%);
+    color: #003d3e;
+}
+#inicio .title h1{
+    font-size: 44px;
+    font-weight: bold;
+    font-family: 'Concert One', cursive;
+    padding-bottom: 2rem;
+}
+#inicio .title h2{
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+    padding-bottom: 10vw;
+    padding-left: 3vw;
+}
+ #inicio img{
+    width: 40vw;
+}
+
+/* -----------seção sobre------------- */
+
+#sobre{
+    display: flex;
+    align-items: center;
+    padding-left: 16rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 65vh auto;
+    color: #003d3e;
+    background-color: #fb9101;
+}
+#sobre div{
+    display: block;
+    width: 40vw;
+    margin-right: 40px;
+}
+#sobre div h2{
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+    margin-bottom: 5vh;
+}
+#sobre div p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+/* ---------seção metas----------- */
+#metas{
+    padding-left: 16rem;
+    padding-top: 40px;
+    height: 65vh auto;
+    background-image: url(../img/banner-goals.png);
+    background-position-y: -200px;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.mr1{
+    background-color: #fac312;
+    box-shadow: 7px 4px 5px 6px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 30vh auto;
+    border-radius: 1.5em;
+    padding-top: 4vh;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.mr1 h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #003d3e;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.mr1 p {
+    color:#003d3e;
+    font-size: 18px;
+    font-family: 'Concert One', cursive;
+    margin: 1rem;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* ------------seção energia renovável------------- */
+
+#energia{
+    background-color: #009fa4;
+    height: 70vh auto; 
+    width: auto;
+    padding: 70px 32px 50px 30vw;
+    
+}
+#energia div{
+    text-align: left;
+    background-color: #62cda1;
+    color: #003d3e;
+    border-radius: 3px;
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.2);
+    height: auto;
+    width: 55vw;
+    padding: 5vh;
+}
+hr{
+    color:  #e0d310;
+    border: 2px solid;
+    border-radius: 10px;
+}
+#energia div h2{
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+    margin-bottom: 5vh;
+}
+#energia div p{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 23px;
+    margin-bottom: 5vh;
+}
+
+/* -------------seção tipos de energia renovavel------------ */
+
+#tipos{
+    display: block;
+    padding: 20px 37px 10px 16rem;
+    height: 80vh auto;
+    color: #003d3e;
+    background-color:  #009fa4;
+}
+.row-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    padding: 5vh 0;
+}
+.row-type span{
+    margin-right: 2vw;
+}
+.row-type span a{
+    transition: all 0.3s ease;
+    color: inherit;
+    font-size: 20px;
+}
+.row-type span a div{
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+
+}
+.row-type span a img{
+    height: 15vh;
+}
+.row-type span a:hover div{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+/* ------------------informações------------------- */
+.info div{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 15px;
+}
+.info div img{
+    height: 35vh;
+    margin-right: 15px;
+}
+.info div p{
+    font-family: 'Concert One', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 5vh;
+}
+#energy1,
+#energy2,
+#energy3,
+#energy4,
+#energy5{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.pros-contras{
+    display: flex;
+    padding-left: 2rem;
+}
+.pros-contras div{
+    display: block;
+    text-align: left;
+    padding-right: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.1rem;
+}
+.pros-contras div h3{
+    margin-bottom: 10px;
+}
+/* -------------dados------------------ */
+#dados{
+    padding: 20px 37px 10px 16rem;
+    background-color:  #009fa4;
+    display: block;
+    text-align: center;
+}
+#dados img{
+    height: 50vw;
+}
+/* ----------------------footer-------------------- */
+footer{
+    display: block;
+    color: #fff;
+    background-color: #003d3e;
+    height: 35vh auto;
+    padding-left: 16rem;
+    text-align: center;
+    padding-right: 30px;
+    box-shadow: inset 10px 4px 5px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.container-footer .links{
+    display: block;
+}
+.container-footer .links a{
+    color: inherit;
+    display: block;
+    margin-bottom: 7px;
+}
+.container-footer .links a:hover{
+    text-decoration: underline;
+}
+.container-footer div{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: inherit;
+    margin: 20px 0;
+}
+footer div h3{
+    margin: 0 0 12px;
+    font-size: 20px;
+    font-family: 'Concert One', cursive;
+    font-weight: 300;
+}
+
+@media (max-width: 800px){
+    .container-header{
+        display: none;
+    }
+    .container-menu{
+        display: block;
+        text-align: center;
+        background-color: #62cda1;
+        border-radius: 2px;
+        box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.2);
+        height: 100%;
+        width: 20%;
+        position: fixed;
+    }
+    .container-menu .logoods{
+        height: 9rem;
+        margin-bottom: 1vh;
+        border-radius: 20px;
+    }
+    .container-menu span{
+        display: block;
+        margin-bottom: 2rem;
+        margin-top: 25px;
+    }
+    .container-menu span a{
+        color: inherit;
+        font-size: 17px;
+        font-family: 'Balsamiq Sans', cursive;
+        color: rgb(255, 255, 255);
+        transition: 0.2s;
+    }
+    .container-menu img{
+        height: 4rem;
+        margin-top: 30px;
+    }
+    .container-menu span a:hover img{
+        background-color:  #009fa4;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    /* ================================================== */
+
+    .container-main{
+        width: 220%;
+    }
+    #inicio{
+        padding-left: 24%;
+        height: 100vh;
+    }
+    #inicio .title h1{
+        font-size: 54px;
+    }
+    #inicio .title h2{
+        font-size: 30px;
+    }
+     #inicio img{
+        width: 90vw;
+    }
+
+    /* ================================================= */
+
+    #sobre{
+        display: block;
+        text-align: center;
+        padding-left: 24%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    #sobre div{
+        width: 90%;
+        margin-right: 70px;
+        padding-bottom: 30px;
+    }
+    #sobre div h2{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 5vh;
+    }
+    #sobre div p{
+        text-align: center;
+        font-size: 28px;
+    }
+    #sobre iframe{
+        width: 140vw;
+    }
+/* ================================================== */
+
+    #metas{
+        padding-left: 11rem;
+        height: 120vh;
+    }
+    .mr1{
+        width: 300px !important;
+    }
+    .mr1 h3{
+        font-size: 36px;
+    }
+    .mr1 p {
+        font-size: 29px;
+    }
+    
+/* ======================================================= */
+
+#energia{
+    padding: 70px 32px 50px 60vw;
+}
+#energia div{
+    text-align: center;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+#energia div h2{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+#energia div p{
+    font-size: 28px;
+    margin-bottom: 5vh;
+}
+
+/* =========================================================== */
+
+#tipos{
+    padding: 20px 37px 10px 60vw;
+    height: 80vh auto;
+}
+.row-type span a{
+    font-size: 22px;
+}
+/* --------------------------------------------------------- */
+
+
+.info div{
+    display: block;
+    text-align: center;
+}
+.info div p{
+    font-size: 32px;
+    margin-bottom: 6vh;
+}
+.pros-contras{
+    padding-left: 2rem;
+}
+.pros-contras div{
+    text-align: left;
+    font-size: 29px;
+}
+.pros-contras div h3{
+    margin-bottom: 30px;
+}
+.info h2{
+    font-size: 40px;
+}
+/* ================================================= */
+
+#dados{
+    padding: 20px 20px 10px 60vw;
+    margin-top: 0;
+    width: 154vw;
+}
+#dados img{
+    height: 80vh;
+}
+/* ========================================================= */
+
+footer{
+    padding-left: 55vw;
+    text-align: center;
+    width: 156vw;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.container-footer{
+    display: block;
+    text-align: center;
+}
+.container-footer div{
+    font-size: 29px;
+    margin: 0px 0;
+    padding-top: 30px;
+}
+footer div h3{
+    font-size: 30px;
+}
+
+
+}
