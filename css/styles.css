@@ -336,7 +336,7 @@ footer div h3{
         transition: 0.2s;
     }
     .container-menu img{
-        height: 4rem;
+        height: 3.5rem;
         margin-top: 30px;
     }
     .container-menu span a:hover img{
@@ -422,7 +422,7 @@ footer div h3{
     margin-bottom: 0;
 }
 #energia div p{
-    font-size: 28px;
+    font-size: 27px;
     margin-bottom: 5vh;
 }
 
